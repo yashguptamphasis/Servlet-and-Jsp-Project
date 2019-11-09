@@ -1,0 +1,27 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  
+  	
+   <servlet>
+		<servlet-name>register</servlet-name>
+		<servlet-class>com.prac.RegisterServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>register</servlet-name>
+		<url-pattern>/register</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>display</servlet-name>
+		<servlet-class>com.prac.DisplayServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>display</servlet-name>
+		<url-pattern>/display</url-pattern>
+	</servlet-mapping>
+  
+  
+</web-app>
